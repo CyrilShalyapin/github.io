@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.firstSection, .secondSection, .thirdSection, .fourthSection {
+    background-position-x: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-width: 362px;
+}
+
+.firstSection {
+    background-color: #72BFFF;
+}
+
+.secondSection {
+    background-color: #FDFDFD;
+}
+
+.thirdSection {
+    background-color: #FBAC38;
+}
+
+.fourthSection {
+    background-color: #FDFDFD;
+}
+
+.wrapper {
+    height: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.btn {
+    background-color: rgba(255, 0, 0, .50);
+    position: absolute;
+}
+
+@media only screen and (min-width: 1320px) and (max-width: 2666px) {
+    .wrapper {
+        width: 1280px;
+    }
+
+    .btn {
+        width: 185px;
+        height: 63px;
+        border-radius: 6px;
+    }
+
+    .googleFirstTop {
+        top: 232px;
+        left: 335px;
+    }
+
+    .appleFirstTop {
+        top: 232px;
+        left: 105px;
+    }
+
+    .googleFirstBottom {
+        top: 1445px;
+        left: 334px;
+    }
+
+    .appleFirstBottom {
+        top: 1445px;
+        left: 104px;
+    }
+
+    .firstSection {
+        background-image: url('mockups/mid/First.png');
+        height: 1778px;
+    }
+
+    .secondSection {
+        background-image: url('mockups/mid/Second.png');
+        height: 921px;
+    }
+
+    .thirdSection {
+        background-image: url('mockups/mid/Third.png');
+        height: 879px;
+    }
+
+    .fourthSection {
+        background-image: url('mockups/mid/Fourth.png');
+        height: 900px;
+    }
+
+    .googleFourth {
+        top: 294px;
+        left: 305px;
+    }
+
+    .appleFourth {
+        top: 294px;
+        left: 75px;
+    }
+}
+
+@media only screen and (max-width: 1319px) and (min-width: 720px) {
+    .wrapper {
+        width: 640px;
+    }
+
+    .btn {
+        width: 93px;
+        height: 31px;
+        border-radius: 3px;
+    }
+
+    .googleFirstTop {
+        top: 116px;
+        left: 168px;
+    }
+
+    .appleFirstTop {
+        top: 116px;
+        left: 53px;
+    }
+
+    .googleFirstBottom {
+        top: 723px;
+        left: 167px;
+    }
+
+    .appleFirstBottom {
+        top: 723px;
+        left: 52px;
+    }
+
+    .firstSection {
+        background-image: url('mockups/small/First.png');
+        height: 889px;
+    }
+    
+    .secondSection {
+        background-image: url('mockups/small/Second.png');
+        height: 461px;
+    }
+    
+    .thirdSection {
+        background-image: url('mockups/small/Third.png');
+        height: 440px;
+    }
+    
+    .fourthSection {
+        background-image: url('mockups/small/Fourth.png');
+        height: 450px;
+    }
+
+    .googleFourth {
+        top: 148px;
+        left: 153px;
+    }
+
+    .appleFourth {
+        top: 148px;
+        left: 38px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .wrapper {
+        width: 340px;
+    }
+
+    .btn {
+        width: 131px;
+        height: 45px;
+        border-radius: 6px;
+    }
+
+    .googleFirstTop {
+        top: 226px;
+        left: 192px;
+    }
+
+    .appleFirstTop {
+        top: 226px;
+        left: 28px;
+    }
+
+    .googleFirstBottom {
+        top: 1335px;
+        left: 189px;
+    }
+
+    .appleFirstBottom {
+        top: 1335px;
+        left: 28px;
+    }
+
+    .firstSection {
+        background-image: url('mockups/mobile/First.png');
+        height: 1549px;
+    }
+    
+    .secondSection {
+        background-image: url('mockups/mobile/Second.png');
+        height: 581px;
+    }
+    
+    .thirdSection {
+        background-image: url('mockups/mobile/Third.png');
+        height: 1729px;
+    }
+    
+    .fourthSection {
+        background-image: url('mockups/mobile/Fourth.png');
+        height: 734px;
+    }
+
+    .googleFourth {
+        top: 143px;
+        left: 186px;
+    }
+
+    .appleFourth {
+        top: 143px;
+        left: 22px;
+    }
+}
+
+@media only screen and (min-width: 2666px) {
+    .wrapper {
+        width: 2560px;
+    }
+
+    .btn {
+        width: 370px;
+        height: 126px;
+        border-radius: 12px;
+    }
+
+    .googleFirstTop {
+        top: 464px;
+        left: 670px;
+    }
+
+    .appleFirstTop {
+        top: 464px;
+        left: 210px;
+    }
+
+    .googleFirstBottom {
+        top: 2890px;
+        left: 668px;
+    }
+
+    .appleFirstBottom {
+        top: 2890px;
+        left: 208px;
+    }
+
+    .firstSection {
+        background-image: url('mockups/large/First.png');
+        height: 3556px;
+    }
+    
+    .secondSection {
+        background-image: url('mockups/large/Second.png');
+        height: 1842px;
+    }
+    
+    .thirdSection {
+        background-image: url('mockups/large/Third.png');
+        height: 1758px;
+    }
+    
+    .fourthSection {
+        background-image: url('mockups/large/Fourth.png');
+        height: 1800px;
+    }
+
+    .googleFourth {
+        top: 588px;
+        left: 610px;
+    }
+
+    .appleFourth {
+        top: 588px;
+        left: 150px;
+    }
+}
