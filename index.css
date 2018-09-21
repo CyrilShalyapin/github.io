@@ -33,8 +33,16 @@ body {
 }
 
 .btn {
-    background-color: rgba(255, 0, 0, .50);
+    background-color: transparent;
     position: absolute;
+}
+
+.btn:hover {
+    background-color: rgba(100, 180, 255, 0.151);
+}
+
+.btn:active {
+    background-color: rgba(11, 137, 255, 0.37);
 }
 
 @media only screen and (min-width: 1320px) and (max-width: 2666px) {
