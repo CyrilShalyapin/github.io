@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background: linear-gradient(to right, #7B96A9, #C7D1DF);
 }
 
 .firstSection, .secondSection, .thirdSection, .fourthSection {
@@ -20,10 +21,6 @@ body {
 
 .thirdSection {
     background-color: #FBAC38;
-}
-
-.fourthSection {
-    background-color: #FDFDFD;
 }
 
 .wrapper {
